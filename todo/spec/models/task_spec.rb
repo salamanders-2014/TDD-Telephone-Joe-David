@@ -63,10 +63,5 @@ RSpec.describe Task, :type => :model do
     end
   end
 
-  context "A task is able to be completed or incompleted" do
-    before(:each) do
-      task = Task.create(title: "test", description: "Descriptionn")
-    end
-
 
 end
